@@ -1,0 +1,23 @@
+.nav-links {
+    color: black;
+}
+
+.nav-links::after {
+    content: "";
+    display: block;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 2px;
+    border-bottom: 2px solid #000000;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links:hover::after {
+    width: 100%;
+}
+
+.dropdown-menu.show {
+    width: 100% !important;
+}
