@@ -21,7 +21,7 @@ const Testimonial = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // const res = await axios.get("https://personal-portfolio-db.onrender.com/testimonials");
+        const res = await axios.get("https://personal-portfolio-db.onrender.com/testimonials");
         setUser(res.data);
       } catch (err) {
         console.log("Invalid API", err);
