@@ -56,7 +56,7 @@ const Contact = () => {
         </p>
         <div className='row form-row'>
           <div className='d-flex justify-content-center align-items-center'>
-            <form onSubmit={handleSubmit} className='w-75'>
+            <form onSubmit={handleSubmit}>
               <div className='form-floating mb-3'>
                 <input
                   type="text"
