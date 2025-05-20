@@ -55,7 +55,7 @@ const Contact = () => {
           I’m just a message away—let’s collaborate and build something great!
         </p>
         <div className='row form-row'>
-          <div className='d-flex justify-content-center align-items-center'>
+          <div>
             <form onSubmit={handleSubmit}>
               <div className='form-floating mb-3'>
                 <input
