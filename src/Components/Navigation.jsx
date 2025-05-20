@@ -9,11 +9,8 @@ const Navigation = () => {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-dark nav top-fixed" style={{
-        position: "fixed",
-        top: 0,
+      <Navbar expand="lg" className="bg-body-dark nav" style={{
         width: "100%",
-        zIndex: 1050,
         boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.16)",
         backdropFilter: "blur(10px)",
         WebkitBackdropFilter: "blur(10px)",
