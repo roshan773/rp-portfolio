@@ -9,7 +9,7 @@ const Navigation = () => {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-dark nav" style={{
+      <Navbar expand="lg" className="bg-body-dark nav t0p-fixed" style={{
         top: 0,
         width: "100%",
         zIndex: 1050,
