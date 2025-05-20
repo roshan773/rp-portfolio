@@ -14,17 +14,18 @@ import { Sugar } from 'react-preloaders'
 function App() {
   const [loading, setLoading] = useState(true)
 
-  
+
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false)
+      document.body.style.overflow = 'auto';
     }, 2000)
     return () => clearTimeout(timer)
   }, [])
 
   return loading ? (
-    
+
     <div
       className="loader-container"
       style={{
@@ -41,7 +42,7 @@ function App() {
       }}
     >
       <Sugar color="#212529" size={90} />
-      
+
 
       <div className="mt-4 text-center futuristic-text">
         <p style={{ margin: 0, fontSize: "18px", opacity: 0.85, color: "#212529" }}>
