@@ -16,12 +16,13 @@ function App() {
 
   
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setLoading(false)
-  //   }, 5000)
-  //   return () => clearTimeout(timer)
-  // }, [])
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false)
+    }, 5000)
+    return () => clearTimeout(timer)
+  }, [])
+
 
   return loading ? (
     
@@ -29,6 +30,7 @@ function App() {
       className="loader-container"
       style={{
         width: "100%",
+        height: "100vh",
         backgroundColor: "#ffffff",
         display: "flex",
         flexDirection: "column",
