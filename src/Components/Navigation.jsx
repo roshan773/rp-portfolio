@@ -11,6 +11,7 @@ const Navigation = () => {
     <>
       <Navbar expand="lg" className="bg-body-dark nav top-fixed" style={{
         top: 0,
+        position: "sticky",
         width: "100%",
         zIndex: 1050,
         boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.16)",
