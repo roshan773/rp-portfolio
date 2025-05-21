@@ -1,22 +1,34 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import "./Navigation.css";
+// import { IoMoon, IoSunnySharp } from 'react-icons/io5';
+// import { FaBars, FaRegMoon, FaRegSun, FaTimes } from 'react-icons/fa';
+import "./Navigation.css"
 
 const Navigation = () => {
+
   return (
     <>
-      <Navbar expand="lg" className="bg-body-dark fixed-top nav" style={{
+      <Navbar expand="lg" className="bg-body-dark nav fixed-top" style={{
+        top: 0,
+        position: "sticky",
+        width: "100%",
         zIndex: 1050,
         boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.16)",
         backdropFilter: "blur(10px)",
         WebkitBackdropFilter: "blur(10px)",
-        borderBottom: "1px solid rgba(255, 255, 255, 0.18)",
-        padding: "15px 0"
+        border: "1px solid rgba(255, 255, 255, 0.18)",
+        padding: "15px 0",
       }}>
         <Container>
-          <Navbar.Brand href="#navigation" id="navigation" className="fw-bold">RP PORTFOLIO</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbar" style={{ border: "none" }} />
+          <Navbar.Brand href="#navigation" id='navigation' className='fw-bold'>RP PORTFOLIO</Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="navbar"
+            style={{
+              border: "none",
+            }}
+          >
+          </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="w-100 d-flex justify-content-end">
               <Nav.Link className='fw-bold nav-links' href="#home">HOME</Nav.Link>
@@ -29,7 +41,7 @@ const Navigation = () => {
         </Container>
       </Navbar>
     </>
-  );
+  )
 }
 
-export default Navigation;
+export default Navigation
