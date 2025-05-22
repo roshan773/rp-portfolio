@@ -31,7 +31,7 @@ const Navigation = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="w-100 d-flex justify-content-end">
-              <Nav.Link className='fw-bold nav-link' href="#home">HOME</Nav.Link>
+              <Nav.Link className='fw-bold nav-links' href="#home">HOME</Nav.Link>
               <Nav.Link className='fw-bold nav-links' href="#about">ABOUT</Nav.Link>
               <Nav.Link className='fw-bold nav-links' href="#skills">SKILLS</Nav.Link>
               <Nav.Link className='fw-bold nav-links' href="#project">PROJECT</Nav.Link>
