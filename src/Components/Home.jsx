@@ -7,7 +7,7 @@ const Home = () => {
     <div className="container mt-4 home">
       <div className="row align-items-center info">
         {/* Left Section - Text Content */}
-        <div className="col-lg-6 text-center text-lg-start" >
+        <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-center text-lg-start" >
           <h1 className="display-3 fw-bold">Hi, <span className="typing">I'm Roshan</span></h1>
           <p className="fs-4 fw-bold text-secondary">
             A professional front-end developer specializing in building responsive, high-performance, and visually engaging websites.
@@ -33,7 +33,7 @@ const Home = () => {
         </div>
 
         {/* Right Section - Image */}
-        <div className="col-lg-6 text-center mt-5 mt-lg-0 d-none d-sm-none d-md-block d-lg-block img-container">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-center mt-5 mt-lg-0 d-none d-sm-none d-md-block d-lg-block img-container">
           <img
             src="/portrait.png"
             alt="Pakhre Roshan Portrait"
