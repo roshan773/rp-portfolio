@@ -7,7 +7,7 @@
 
 .home {
     width: 100%;
-    height: auto;
+    height: 90vh;
     z-index: -1;
     display: flex;
     justify-content: center;
