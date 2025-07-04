@@ -1,35 +1,54 @@
 .testimonial {
     width: 100%;
     min-height: 100vh;
-    background-color: #ffffff;
+    background: linear-gradient(135deg, #edf1f5, #dbe4f3);
     display: flex;
     justify-content: center;
     /* align-items: center; */
     padding: 60px 20px;
     box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
 }
 
 .slide {
     height: 100%;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 30px;
-    border-radius: 14px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1),
+                0 0 20px rgba(0, 132, 255, 0.08);
     transition: transform 0.4s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    animation: fadeInUp 0.6s ease-in-out;
 }
 
 .swiper-slide {
     opacity: 0.3;
+    transform: scale(0.95);
     transition: opacity 0.3s ease, transform 0.3s ease;
-    transform: scale(0.96);
 }
 
 .swiper-slide-active {
     opacity: 1 !important;
-    transform: scale(1.05);
-    z-index: 1;
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+    transform: scale(1.06);
+    z-index: 2;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12),
+                0 0 30px rgba(0, 132, 255, 0.12);
+}
+
+/* Light Glow Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
