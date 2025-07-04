@@ -1,47 +1,35 @@
 .testimonial {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to bottom right, #e0e7ff, #f0f4ff);
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding: 60px 20px;
     box-sizing: border-box;
 }
 
 .slide {
-    background: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    border-radius: 16px;
-    padding: 30px 25px;
-    max-width: 600px;
-    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
 
 .swiper-slide {
     opacity: 0.3;
-    transform: scale(0.95);
-    transition: opacity 0.4s ease, transform 0.4s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: scale(0.96);
 }
 
 .swiper-slide-active {
     opacity: 1 !important;
     transform: scale(1.05);
-    z-index: 2;
-    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12);
-}
-
-@media (max-width: 768px) {
-    .slide {
-        padding: 20px 15px;
-        border-radius: 12px;
-    }
-
-    .testimonial {
-        padding: 40px 15px;
-    }
+    z-index: 1;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
 }

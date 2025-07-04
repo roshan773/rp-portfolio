@@ -43,7 +43,7 @@ const About = () => {
             </p>
 
             <div className="d-flex flex-column flex-md-row gap-3 mt-4">
-              <a href="/Frontend-developer-Resume.pdf" target="_blank" className="btn btn-outline-dark p-3 fw-bold w-100">
+              <a href="/Website developer Resume.pdf" target="_blank" className="btn btn-outline-dark p-3 fw-bold w-100">
                 📄 Resume
               </a>
             </div>
