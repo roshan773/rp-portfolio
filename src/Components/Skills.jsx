@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Skill.css"
-import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaSass, FaNodeJs  } from 'react-icons/fa'
+import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaReact, FaSass, FaNodeJs } from 'react-icons/fa'
 import { DiJqueryLogo } from 'react-icons/di'
 import { IoLogoJavascript } from 'react-icons/io'
-import { SiCanva, SiRedux, SiExpress  } from 'react-icons/si'
+import { SiCanva, SiRedux, SiExpress, SiMongoose } from 'react-icons/si'
 import { IoLogoFirebase } from "react-icons/io5";
 import { RiRobot2Line } from 'react-icons/ri'
 import { TbBrandNextjs } from "react-icons/tb";
+import { BiLogoMongodb } from "react-icons/bi";
 
 const Skills = () => {
   return (
@@ -121,19 +122,19 @@ const Skills = () => {
               </div>
               <div className='col-6 col-sm-6 col-md-4 col-lg-3 mt-4 d-flex justify-content-center align-items-center h-100'>
                 <div className='Express text-center'>
-                  <SiExpress  size={300} className='p-4 img-fluid' />
+                  <SiExpress size={300} className='p-4 img-fluid' />
                   <p className='mt-2 fs-5 fw-bold text-dark'>EXPRESS.JS</p>
                 </div>
               </div>
               <div className='col-6 col-sm-6 col-md-4 col-lg-3 mt-4 d-flex justify-content-center align-items-center h-100'>
-                <div className='firebase text-center'>
-                  <IoLogoFirebase size={300} className='p-4 img-fluid' />
+                <div className='Mongodb  text-center'>
+                  <BiLogoMongodb size={300} className='p-4 img-fluid' />
                   <p className='mt-2 fs-5 fw-bold text-dark'>MONGODB</p>
                 </div>
               </div>
               <div className='col-6 col-sm-6 col-md-4 col-lg-3 mt-4 d-flex justify-content-center align-items-center h-100'>
-                <div className='firebase text-center'>
-                  <IoLogoFirebase size={300} className='p-4 img-fluid' />
+                <div className='Mongoose text-center'>
+                  <SiMongoose size={300} className='p-4 img-fluid' />
                   <p className='mt-2 fs-5 fw-bold text-dark'>MONGOOSE</p>
                 </div>
               </div>
