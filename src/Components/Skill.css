@@ -8,7 +8,7 @@
     margin-bottom: 50px;
 }
 
-#icon:hover{
+#icon:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
@@ -146,15 +146,29 @@
     transform: translateY(-10px);
 }
 
-.redux{
+.redux {
     color: #764abc;
     width: 100%;
     height: 100%;
     transition: all 0.3s ease-in-out;
 }
 
-.redux:hover{
+.redux:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.075);
     border-radius: 10px;
     transform: translateY(-10px);
+}
+
+.nodejs {
+    color: #215732;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.Express {
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
 }

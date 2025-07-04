@@ -7,7 +7,7 @@
 
 .home {
     width: 100%;
-    height: auto;
+    height: 90vh;
     z-index: -1;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@
 
 .img-container {
     width: 100%;
-    height: auto;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;

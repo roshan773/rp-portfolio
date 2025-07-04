@@ -36,7 +36,7 @@ const Home = () => {
 
 
         {/* Right Section - Image */}
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 text-center mt-5 mt-lg-0 d-none d-sm-none d-md-block d-lg-block img-container">
+        <div className="col-lg-6 text-center mt-5 mt-lg-0 d-none d-sm-none d-md-block d-lg-block img-container">
           <img
             src="/portrait.png"
             alt="Pakhre Roshan Portrait"

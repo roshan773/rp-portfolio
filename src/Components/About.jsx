@@ -12,7 +12,7 @@ const About = () => {
           <div className="col-12 col-sm-12 col-md-12 col-lg-6 mt-4">
             <p className="text-secondary text-md-start w-100">
               👋 Hey, I'm <span className="highlight">Pakhre Roshan</span>, a passionate
-              <strong> Frontend Web Developer</strong> on my journey to becoming a
+              <strong> Full Stack Web Developer</strong> on my journey to becoming a
               <strong> Full-Stack Developer</strong>. I specialize in crafting modern, responsive,
               and user-friendly websites.
             </p>
