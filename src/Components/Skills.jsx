@@ -55,12 +55,6 @@ const Skills = () => {
                 </div>
               </div>
               <div className='col-6 col-sm-6 col-md-4 col-lg-3 mt-4 d-flex justify-content-center align-items-center h-100'>
-                <div className='sass text-center'>
-                  <FaSass size={300} className='p-4 img-fluid' />
-                  <p className='mt-2 fs-5 fw-bold text-dark'>Sass</p>
-                </div>
-              </div>
-              <div className='col-6 col-sm-6 col-md-4 col-lg-3 mt-4 d-flex justify-content-center align-items-center h-100'>
                 <div className='bootstrap text-center'>
                   <FaBootstrap size={300} className='p-4 img-fluid' />
                   <p className='mt-2 fs-5 fw-bold text-dark'>Bootstrap</p>
