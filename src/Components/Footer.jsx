@@ -4,46 +4,57 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="footer container-fluid py-4" style={{ backgroundColor: '#f0f0f0' }}>
+    <footer className="footer container-fluid py-5">
       <div className="container">
-        <div className="row align-items-center text-center text-md-start">
+        <div className="row text-center text-md-start align-items-center">
 
-          {/* Logo */}
-          <div className="col-12 col-md-3 mb-3 mb-md-0">
-            <img src="./LOGO.png" alt="Logo" className="img-fluid" style={{ maxWidth: '150px' }} />
+          {/* Left - Logo & Tagline */}
+          <div className="col-12 col-md-4 mb-4 mb-md-0">
+            <img
+              src="/public/Logo.png"
+              alt="Logo"
+              className="footer-logo mb-3"
+            />
+            <p className="footer-tagline">
+              Building modern & interactive websites with passion and precision.
+            </p>
           </div>
 
-          {/* Navigation */}
-          <div className="col-12 col-md-6 mb-3 mb-md-0">
-            <ul className="list-inline mb-0 d-flex flex-wrap justify-content-center gap-3">
-              {['HOME', 'ABOUT', 'SKILL', 'PROJECT', 'CONTACT'].map((item, index) => (
-                <li key={index} className="list-inline-item">
-                  <a href={`#${item.toLowerCase()}`} className="footer-link">
-                    {item}
-                  </a>
+          {/* Middle - Quick Links */}
+          <div className="col-12 col-md-4 mb-4 mb-md-0">
+            <h5 className="footer-heading">Quick Links</h5>
+            <ul className="footer-links list-unstyled">
+              {['Home', 'About', 'Skill', 'Project', 'Contact'].map((item, index) => (
+                <li key={index}>
+                  <a href={`#${item.toLowerCase()}`} className="footer-link">{item}</a>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Social Icons */}
-          <div className="col-12 col-md-3 d-flex justify-content-center justify-content-md-end gap-3">
-            <a href="https://www.instagram.com/roshan__xi/?hl=en" target="_blank" rel="noopener noreferrer">
-              <FaInstagram size={24} className="social-icon" />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={24} className="social-icon" />
-            </a>
-            <a href="https://github.com/roshan773" target="_blank" rel="noopener noreferrer">
-              <FaGithub size={24} className="social-icon" />
-            </a>
+          {/* Right - Socials */}
+          <div className="col-12 col-md-4 text-center text-md-end">
+            <h5 className="footer-heading">Connect</h5>
+            <div className="footer-socials d-flex justify-content-center justify-content-md-end gap-3 mt-2">
+              <a href="https://www.instagram.com/roshan__xi/?hl=en" target="_blank" rel="noopener noreferrer">
+                <FaInstagram size={24} className="social-icon" />
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={24} className="social-icon" />
+              </a>
+              <a href="https://github.com/roshan773" target="_blank" rel="noopener noreferrer">
+                <FaGithub size={24} className="social-icon" />
+              </a>
+            </div>
           </div>
 
         </div>
 
-        {/* Copyright */}
-        <div className="border-top text-center pt-3 mt-4">
-          <p className="mb-0 text-dark">&copy; {new Date().getFullYear()} Pakhre Roshan. All Rights Reserved.</p>
+        {/* Bottom - Copyright */}
+        <div className="footer-bottom text-center pt-4 mt-4 border-top">
+          <p className="mb-0">
+            © {new Date().getFullYear()} <span className="fw-bold">Pakhre Roshan</span>. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>

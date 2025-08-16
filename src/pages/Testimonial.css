@@ -1,7 +1,6 @@
 .testimonial {
     width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #edf1f5, #dbe4f3);
+    min-height: auto;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -9,18 +8,19 @@
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .slide {
     height: 100%;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(255, 255, 255);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1),
-                0 0 20px rgba(0, 132, 255, 0.08);
+        0 0 20px rgba(0, 132, 255, 0.08);
     transition: transform 0.4s ease, box-shadow 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -38,7 +38,7 @@
     transform: scale(1.06);
     z-index: 2;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12),
-                0 0 30px rgba(0, 132, 255, 0.12);
+        0 0 30px rgba(0, 132, 255, 0.12);
 }
 
 /* Light Glow Animation */
@@ -47,6 +47,7 @@
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);

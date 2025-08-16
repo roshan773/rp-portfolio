@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contact::before {
@@ -15,15 +16,15 @@
     height: 100%;
     top: 0%;
     left: 0%;
-    background-image: url("https://images.unsplash.com/photo-1496307653780-42ee777d4833?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdoaXRlJTIwYXJjaGl0ZWN0dXJlfGVufDB8fDB8fHww");
+    background-image: url("https://images.pexels.com/photos/276374/pexels-photo-276374.jpeg?cs=srgb&dl=pexels-pixabay-276374.jpg&fm=jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    background-attachment: fixed;
 }
 
 .form-row {
+    width: auto;
     padding: 30px;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.068);
@@ -39,4 +40,12 @@
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
     border: 1px solid #ccc;
+}
+
+.btn, .form-floating, label, option{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: black;
 }
