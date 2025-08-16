@@ -16,7 +16,7 @@ const Navbar = () => {
 
                             {/* Logo in the middle */}
                             <a className="navbar-brand" href="/">
-                                <img src="/Logo.png" alt="Logo" className="img-fluid" style={{ height: "80px", textAlign: "center" }} />
+                                <img src="/public/LOGO.png" alt="Logo" className="img-fluid" style={{ height: "80px", textAlign: "center" }} />
                             </a>
 
                             {/* Right links */}
