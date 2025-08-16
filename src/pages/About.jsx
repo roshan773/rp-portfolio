@@ -6,7 +6,7 @@ const About = () => {
     <div className='container-fluid py-5' style={{ backgroundColor: "#000", color: "white" }}>
       <div className='row'>
         <div className='col-12 col-sm-12 col-md-12 col-lg-6'>
-          <img src="/About.png" alt="profile image" className='img-fluid w-100 h-100' />
+          <img src="/public/about.png" alt="profile image" className='img-fluid w-100 h-100' />
         </div>
         <div className='col-12 col-sm-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center p-4' style={{maxWidth: "900px"}}>
           <h1>Hi, Again Folks</h1>
