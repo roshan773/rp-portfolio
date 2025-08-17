@@ -16,7 +16,7 @@ const Navbar = () => {
 
                             {/* Logo in the middle */}
                             <a className="navbar-brand" href="/">
-                                <img src="/public/LOGO.png" alt="Logo" className="img-fluid" style={{ height: "80px", textAlign: "center" }} />
+                                <img src="/public/Logo.png" alt="Logo" className="img-fluid" style={{ height: "80px", textAlign: "center" }} />
                             </a>
 
                             {/* Right links */}
@@ -34,10 +34,10 @@ const Navbar = () => {
             </div>
 
             {/* for smaller screen */}
-            <div className='d-block d-sm-block d-md-block d-lg-none' style={{ backgroundColor: "black" }}>
+            <div className='d-block d-sm-block d-md-block d-lg-none nav'>
                 <nav style={{ display: "flex", justifyContent: "space-between" }}>
                     <a className="navbar-brand" href="/">
-                        <img src="/Logo.png" alt="Logo" className="img-fluid" style={{ height: "80px", textAlign: "center" }} />
+                        <img src="/public/Logo.png" alt="Logo" className="img-fluid" style={{ height: "80px", textAlign: "center" }} />
                     </a>
                     <div>
 
