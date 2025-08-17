@@ -18,10 +18,10 @@ const Skills = () => {
 
                 {/* Frontend Skills */}
                 <div className="row  mb-5">
-                    <div className="col-12 col-md-4 mb-4 mb-md-0">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-4 mb-4 mb-md-0">
                         <h1 className="display-4 text-center">Frontend Skills</h1>
                     </div>
-                    <div className="col-12 col-md-8">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-8">
                         <div className="row">
                             <SkillItem icon={<FaHtml5 />} name="HTML" />
                             <SkillItem icon={<FaCss3Alt />} name="CSS" />
@@ -37,10 +37,10 @@ const Skills = () => {
 
                 {/* Backend Skills */}
                 <div className="row  mb-5">
-                    <div className="col-12 col-md-4 mb-4 mb-md-0">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-4 mb-4 mb-md-0">
                         <h1 className="display-4 text-center">Backend Skills</h1>
                     </div>
-                    <div className="col-12 col-md-8">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-8">
                         <div className="row">
                             <SkillItem icon={<IoLogoFirebase />} name="Firebase" />
                             <SkillItem icon={<FaNodeJs />} name="Node.js" />
@@ -53,10 +53,10 @@ const Skills = () => {
 
                 {/* Tools & Extras */}
                 <div className="row ">
-                    <div className="col-12 col-md-4 mb-4 mb-md-0">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-4 mb-4 mb-md-0">
                         <h1 className="display-4 text-center">Tools / Extras</h1>
                     </div>
-                    <div className="col-12 col-md-8">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-8">
                         <div className="row">
                             <SkillItem icon={<RiRobot2Line />} name="Prompt Engineering" />
                             <SkillItem icon={<SiCanva />} name="Canva" />

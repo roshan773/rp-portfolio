@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Left - Logo & Tagline */}
           <div className="col-12 col-md-4 mb-4 mb-md-0">
             <img
-              src="/public/Logo.png"
+              src="/Logo.png"
               alt="Logo"
               className="footer-logo mb-3"
             />
@@ -53,7 +53,7 @@ const Footer = () => {
         {/* Bottom - Copyright */}
         <div className="footer-bottom text-center pt-4 mt-4 border-top">
           <p className="mb-0">
-            © {new Date().getFullYear()} <span className="fw-bold">Pakhre Roshan</span>. All Rights Reserved.
+            © {new Date().getFullYear()} <span className="fw-bold fs-4">Pakhre Roshan</span>. All Rights Reserved.
           </p>
         </div>
       </div>
