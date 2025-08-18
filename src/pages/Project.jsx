@@ -26,17 +26,17 @@ const Project = () => {
                             </div>
                             <div className="card-body p-3 d-flex flex-column">
                                 <h5 className="fs-3 mb-2" style={{ fontFamily: "inherit" }}>Logo Lab Technology</h5>
-                                <p className="card-info flex-grow-1">
+                                <p className="card-info">
                                     Worked for a startup company providing logos, banners, and more.
                                 </p>
                                 <p><strong>Tech Stack:</strong> HTML, CSS, Bootstrap, Three.js</p>
-                                <div className="d-flex gap-2 mt-3">
+                                <div className="btn-group d-flex mt-3">
                                     <a
                                         href="https://logolabtechnology.netlify.app/"
                                         target="_blank"
                                         className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
-                                        <FiExternalLink size={20} /> <span>View Site</span>
+                                        <FiExternalLink size={20} /><span>View Site</span>
                                     </a>
                                     <a
                                         href="https://github.com/roshan773/logolabtechnology"
@@ -62,11 +62,11 @@ const Project = () => {
                             </div>
                             <div className="card-body p-3 d-flex flex-column">
                                 <h5 className="fs-3 mb-2" style={{ fontFamily: "inherit" }}>Wedgram Designs</h5>
-                                <p className="card-info flex-grow-1">
+                                <p className="card-info">
                                     Developed my first responsive website using HTML, CSS, and Bootstrap as a foundation project.
                                 </p>
                                 <p><strong>Tech Stack:</strong> HTML, CSS, Bootstrap</p>
-                                <div className="d-flex gap-2 mt-3">
+                                <div className="btn-group d-flex mt-3">
                                     <a
                                         href="https://wedgramdesigns.vercel.app/"
                                         target="_blank"
@@ -98,11 +98,11 @@ const Project = () => {
                             </div>
                             <div className="card-body p-3 d-flex flex-column">
                                 <h5 className="fs-3 mb-2" style={{ fontFamily: "inherit" }}>Graphic Designer Website</h5>
-                                <p className="card-info flex-grow-1">
+                                <p className="card-info">
                                     Built a creative website for a graphic designer using modern interactive elements.
                                 </p>
                                 <p><strong>Tech Stack:</strong> HTML, CSS, Bootstrap, Three.js</p>
-                                <div className="d-flex gap-2 mt-3">
+                                <div className="btn-group d-flex mt-3">
                                     <a
                                         href="https://raghupatilportfolio.netlify.app/"
                                         target="_blank"
@@ -138,14 +138,14 @@ const Project = () => {
                                     <a
                                         href="https://bookmyshowproject.netlify.app/"
                                         target="_blank"
-                                        className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center me-2"
+                                        className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
                                         <FiExternalLink size={20} /> <span>View Site</span>
                                     </a>
                                     <a
                                         href="https://github.com/roshan773/book-my-show"
                                         target="_blank"
-                                        className="btn btn-outline-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center me-2"
+                                        className="btn btn-outline-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
                                         <FiGithub size={20} /><span>View Code</span>
                                     </a>
@@ -166,14 +166,14 @@ const Project = () => {
                                     <a
                                         href="https://hillcrestproject.netlify.app/"
                                         target="_blank"
-                                        className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center me-2"
+                                        className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
                                         <FiExternalLink size={20} /> <span>View Site</span>
                                     </a>
                                     <a
                                         href="https://github.com/roshan773/Hillcrest"
                                         target="_blank"
-                                        className="btn btn-outline-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center me-2"
+                                        className="btn btn-outline-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
                                         <FiGithub size={20} /><span>View Code</span>
                                     </a>
@@ -194,14 +194,14 @@ const Project = () => {
                                     <a
                                         href="https://bankdashproject.netlify.app/"
                                         target="_blank"
-                                        className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center me-2"
+                                        className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
                                         <FiExternalLink size={20} /> <span>View Site</span>
                                     </a>
                                     <a
                                         href="https://github.com/roshan773/adminpanel"
                                         target="_blank"
-                                        className="btn btn-outline-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center me-2"
+                                        className="btn btn-outline-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
                                         <FiGithub size={20} /><span>View Code</span>
                                     </a>
@@ -222,14 +222,14 @@ const Project = () => {
                                     <a
                                         href="https://fetchhive.netlify.app/"
                                         target="_blank"
-                                        className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center me-2"
+                                        className="btn btn-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
                                         <FiExternalLink size={20} /> <span>View Site</span>
                                     </a>
                                     <a
                                         href="https://github.com/roshan773/api-store"
                                         target="_blank"
-                                        className="btn btn-outline-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center me-2"
+                                        className="btn btn-outline-light btn-cta flex-grow-1 d-flex align-items-center justify-content-center"
                                     >
                                         <FiGithub size={20} /><span>View Code</span>
                                     </a>

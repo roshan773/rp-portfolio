@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { GiHamburgerMenu } from "react-icons/gi";
+import Offcanvas from 'react-bootstrap/Offcanvas';
 import "./Navbar.css"
 
 const Navbar = () => {
+
+    const [show, setshow] = useState(false)
+
+    const handleclose = () => setshow(false)
+    const handlleopen = () => setshow(true)
+
     return (
         <>
-            <div className='d-none d-sm-none d-md-none d-lg-block'>
+            {/* 🔹 For larger screens */}
+            <div className='d-none d-lg-block'>
                 <nav className="navbar navbar-expand-lg">
                     <div className="container justify-content-center">
                         <ul className="navbar-nav d-flex align-items-center nav">
@@ -16,7 +25,7 @@ const Navbar = () => {
 
                             {/* Logo in the middle */}
                             <a className="navbar-brand" href="/">
-                                <img src="/Logo.png" alt="Logo" className="img-fluid" style={{ height: "80px", textAlign: "center" }} />
+                                <img src="/Logo.png" alt="Logo" className="img-fluid" style={{ height: "80px" }} />
                             </a>
 
                             {/* Right links */}
@@ -24,7 +33,13 @@ const Navbar = () => {
                             <li className="nav-item px-2"><a href="#contact" className="nav-link">CONTACT</a></li>
 
                             {/* Resume button */}
-                            <a href="/Website developer Resume.pdf" target="_blank" rel="noopener noreferrer" className="button" style={{ fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif", fontSize: "20px" }}>
+                            <a
+                                href="/Website developer Resume.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="button"
+                                style={{ fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif", fontSize: "20px" }}
+                            >
                                 RESUME
                             </a>
 
@@ -33,33 +48,72 @@ const Navbar = () => {
                 </nav>
             </div>
 
-            {/* for smaller screen */}
-            <div className='d-block d-sm-block d-md-block d-lg-none nav'>
-                <nav style={{ display: "flex", justifyContent: "space-between" }}>
+            {/* 🔹 For smaller screens */}
+            <div className="d-block d-lg-none nav" style={{ zIndex: "9999" }}>
+                <div className='d-flex justify-content-between align-items-center'>
+                    {/* Logo */}
                     <a className="navbar-brand" href="/">
-                        <img src="/Logo.png" alt="Logo" className="img-fluid" style={{ height: "80px", textAlign: "center" }} />
+                        <img
+                            src="/Logo.png"
+                            alt="Logo"
+                            className="img-fluid"
+                            style={{ height: "80px" }}
+                        />
                     </a>
-                    <div>
 
+                    <div className='d-flex align-items-center'>
+                        {/* Resume Button */}
+                        <a
+                            href="/Website developer Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="button me-3"
+                            style={{
+                                fontFamily:
+                                    "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                                fontSize: "20px",
+                            }}
+                        >
+                            RESUME
+                        </a>
+
+                        {/* Hamburger Button (Bootstrap collapse trigger) */}
+                        <button
+                            className="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <GiHamburgerMenu size={30} />
+                        </button>
                     </div>
-                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Hide this modal and show the first with the button below.
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
+                </div>
+
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                            <a href="#home" className="nav-link">HOME</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#about" className="nav-link">ABOUT</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#skill" className="nav-link">SKILL</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#project" className="nav-link">PROJECT</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#contact" className="nav-link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+
         </>
     )
 }

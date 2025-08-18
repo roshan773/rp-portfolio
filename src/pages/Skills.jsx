@@ -75,7 +75,7 @@ const Skills = () => {
 const SkillItem = ({ icon, name }) => (
     <div className="col-6 col-sm-4 col-lg-3 mb-4 d-flex justify-content-center">
         <div className="text-center skill-item">
-            <div className="icon-wrapper" style={{ fontSize: "200px" }}>
+            <div className="icon-wrapper img-fluid" style={{ fontSize: "150px" }}>
                 {icon}
             </div>
             <p className="mt-2 fs-4">{name}</p>

@@ -28,7 +28,7 @@ const Home = () => {
                             src="https://i.pinimg.com/originals/eb/ed/ab/ebedab7e6996adb84ead010e4458e149.gif"
                             alt="3d object"
                             className="w-100 h-100"
-                            style={{ objectFit: "cover", minHeight: "50vh" }}
+                            style={{ objectFit: "contain", minHeight: "50vh" }}
                         />
                     </div>
 
