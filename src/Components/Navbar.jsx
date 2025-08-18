@@ -5,15 +5,10 @@ import "./Navbar.css"
 
 const Navbar = () => {
 
-    const [show, setshow] = useState(false)
-
-    const handleclose = () => setshow(false)
-    const handlleopen = () => setshow(true)
-
     return (
         <>
             {/* 🔹 For larger screens */}
-            <div className='d-none d-lg-block'>
+            <div className='d-none d-lg-block' style={{zIndex: 2000 }}>
                 <nav className="navbar navbar-expand-lg">
                     <div className="container justify-content-center">
                         <ul className="navbar-nav d-flex align-items-center nav">
@@ -49,7 +44,7 @@ const Navbar = () => {
             </div>
 
             {/* 🔹 For smaller screens */}
-            <div className="d-block d-lg-none nav" style={{ zIndex: "9999" }}>
+            <div className="d-block d-lg-none nav" style={{zIndex: 2000 }}>
                 <div className='d-flex justify-content-between align-items-center'>
                     {/* Logo */}
                     <a className="navbar-brand" href="/">

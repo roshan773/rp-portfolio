@@ -22,7 +22,7 @@ const Footer = () => {
 
           {/* Middle - Quick Links */}
           <div className="col-12 col-md-4 mb-4 mb-md-0">
-            <h5 className="footer-heading">Quick Links</h5>
+            <h5 className="footer-heading fs-3">Quick Links</h5>
             <ul className="footer-links list-unstyled">
               {['Home', 'About', 'Skill', 'Project', 'Contact'].map((item, index) => (
                 <li key={index}>
@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Right - Socials */}
           <div className="col-12 col-md-4 text-center text-md-end">
-            <h5 className="footer-heading">Connect</h5>
+            <h5 className="footer-heading fs-3">Connect</h5>
             <div className="footer-socials d-flex justify-content-center justify-content-md-end gap-3 mt-2">
               <a href="https://www.instagram.com/roshan__xi/?hl=en" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={24} className="social-icon" />

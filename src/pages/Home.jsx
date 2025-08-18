@@ -1,9 +1,11 @@
 import React from "react";
 import "./Home.css";
+import Navbar from "../Components/Navbar";
 
 const Home = () => {
     return (
         <>
+            <Navbar />
             <div className="container-fluid">
                 <div className="row min-vh-100">
 

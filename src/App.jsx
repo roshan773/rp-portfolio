@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './Components/Navbar';
+// import Navbar from './Components/Navbar';
 import Home from './pages/Home'
 import About from './pages/About';
 import Footer from './Components/Footer';
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <section id='home'><Home /></section>
       <section id='about'><About /></section>
       <section id='skill'><Skills /></section>
