@@ -13,7 +13,7 @@ const About = () => {
           <p>I’m Roshan a Full Stack Web Developer who loves turning ideas into interactive, pixel-perfect websites. I’ve completed full-stack development training and am still leveling up with tools like Redux, Next.js, Prompt Engineering — because in tech, there’s always a next level.</p>
           <p>From portfolio sites and product showcases to creative design platforms, I focus on building clean, responsive, and user-friendly experiences. My short-term goal? Land a role where I can contribute to real-world projects and grow alongside a talented team. My long-term mission? Build my own web development agency, Roshan Tech Studio, crafting high-quality digital solutions that businesses can proudly show off.</p>
           <p>After all, why settle for “just working” when you can create something that makes people say, Whoa, that’s cool?</p>
-          <a href="/public/FullStack Developer.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-light" style={{ fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif", fontSize: "20px" }}>
+          <a href="/FullStack Developer.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-light" style={{ fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif", fontSize: "20px" }}>
             RESUME
           </a>
         </div>
