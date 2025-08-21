@@ -29,7 +29,7 @@ const Navbar = () => {
 
                             {/* Resume button */}
                             <a
-                                href="/Website developer Resume.pdf"
+                                href="/FullStack Developer.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="button"
@@ -59,7 +59,7 @@ const Navbar = () => {
                     <div className='d-flex align-items-center'>
                         {/* Resume Button */}
                         <a
-                            href="/Website developer Resume.pdf"
+                            href="/FullStack Developer.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="button me-3"
