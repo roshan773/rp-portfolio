@@ -12,7 +12,7 @@ const Home = () => {
 
                     {/* Left Column */}
                     <div className="col-12 col-lg-6 d-flex flex-column justify-content-center p-5 text-center text-lg-start">
-                        <p className="fs-2">Hi,</p>
+                        <p className="fs-2">Hey,</p>
                         <h1 className="display-1">Roshan — This Side</h1>
                         <h2 className="fs-1 text">MERN Stack Developer</h2>
                         <p className="fs-4 text">
