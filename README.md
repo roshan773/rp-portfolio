@@ -1,12 +1,46 @@
-# React + Vite
+# 🌐 Roshan Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern, responsive **personal portfolio website** built with **React + Vite**.  
+It highlights my skills, projects, and services as a **Full Stack Web Developer**, focusing on **clean design, interactivity, and performance**.  
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React for UI  
+- 🎨 Bootstrap 5 + React Bootstrap for styling and components  
+- 🌌 Three.js for 3D interactive elements  
+- 🖼 Swiper.js for project showcase carousel  
+- 📬 EmailJS for contact form integration  
+- 🔔 React Toastify for notifications  
+- ⚡ Vite for fast build and development  
+- ✅ ESLint for linting and clean code  
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📱 Fully responsive design (mobile-first)  
+- 🖼 Interactive project showcase with Swiper.js  
+- 📬 Contact form powered by EmailJS  
+- 🌌 3D elements integrated via Three.js  
+- 🔔 Smooth toast notifications with React Toastify  
+- 🎨 Clean UI with Bootstrap 5 and custom styling  
+
+## 📂 Project Structure
+
+src/
+┣ components/ # Reusable UI components
+┣ pages/ # Page-level components (Home, About, Projects, Contact)
+┣ assets/ # Images, icons, static files
+┣ App.jsx # Root component
+┣ main.jsx # React entry point
+
+## ⚡ Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/roshan-portfolio.git
+cd roshan-portfolio
+npm install
+
+Run the development server:
+
+npm run dev
