@@ -27,7 +27,7 @@ const Home = () => {
                     {/* Right Column */}
                     <div className="col-12 col-lg-6 p-0">
                         <img
-                            src="https://i.pinimg.com/originals/eb/ed/ab/ebedab7e6996adb84ead010e4458e149.gif"
+                            src="https://i.pinimg.com/originals/5e/81/69/5e81696ad2db2c8674a4a0186eee36ef.gif"
                             alt="3d object"
                             className="w-100 h-100"
                             style={{ objectFit: "contain", minHeight: "50vh" }}
