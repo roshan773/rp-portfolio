@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import Navbar from "../Components/Navbar";
-import Scene from "../Components/Scene";
 
 const Home = () => {
     return (
