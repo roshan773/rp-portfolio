@@ -57,7 +57,7 @@ function Torus() {
 
 export default function Torus3D() {
     return (
-        <div style={{ width: "100%", height: "100vh", background: "white" }}>
+        <div style={{ width: "100%", height: "50vh", background: "white", position: "relative", zIndex: "99999" }}>
             <Canvas camera={{ position: [3, 3, 3] }}>
                 {/* Light Setup */}
                 <ambientLight intensity={0.3} />
