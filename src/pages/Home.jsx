@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
 
                     {/* Right Column */}
-                    <div className="col-12 col-lg-7 p-0">
+                    <div className="col-12 col-lg-7 p-0" style={{zIndex: "9999"}}>
                         <Three />
                     </div>
 
