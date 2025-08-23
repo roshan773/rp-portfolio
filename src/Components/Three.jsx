@@ -16,7 +16,6 @@ function Torus() {
     return (
         <mesh ref={meshRef}>
             {/* Torus Geometry */}
-<<<<<<< HEAD
             <torusGeometry args={[1.5, 0.7, 30, 200]} />
             
             {/* Material with ref for color animation */}
@@ -36,11 +35,10 @@ function Torus() {
                 opacity={0.8}
                 color="white"
             />
-=======
+
             <torusGeometry args={[1, 0.4, 16, 100]} />
             {/* Material */}
             <meshStandardMaterial color="#4B9CE2" metalness={0.7} roughness={0.2} />
->>>>>>> 4a91933186b31d7d66f7c0f8bc0450ed0a6b677a
         </mesh>
     );
 }
