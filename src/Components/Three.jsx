@@ -33,12 +33,12 @@ function Torus() {
         <mesh ref={meshRef}>
             {/* Torus Geometry */}
             <torusGeometry args={[1.5, 0.7, 30, 200]} />
-
+            
             {/* Material with ref for color animation */}
             <meshStandardMaterial
                 ref={materialRef}
-                metalness={0.7}
-                roughness={0.3}
+                metalness={0.8}
+                roughness={0.2}
                 side={THREE.DoubleSide}
             />
 
@@ -57,7 +57,7 @@ function Torus() {
 
 export default function Torus3D() {
     return (
-        <div style={{ width: "100%", height: "100vh", background: "white" }}>
+        <div style={{ width: "100%", height: "100vh", background: "black" }}>
             <Canvas camera={{ position: [3, 3, 3] }}>
                 {/* Light Setup */}
                 <ambientLight intensity={0.3} />
@@ -68,7 +68,7 @@ export default function Torus3D() {
                 <Torus />
 
                 {/* Controls for Interaction */}
-                <OrbitControls enableZoom={false} />
+                <OrbitControls enableZoom={true} />
             </Canvas>
         </div>
     );
