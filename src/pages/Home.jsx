@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Navbar from "../Components/Navbar";
+import Three from "../Components/Three";
 
 const Home = () => {
     return (
@@ -10,7 +11,7 @@ const Home = () => {
                 <div className="row min-vh-100">
 
                     {/* Left Column */}
-                    <div className="col-12 col-lg-6 d-flex flex-column justify-content-center p-5 text-center text-lg-start">
+                    <div className="col-12 col-lg-5 d-flex flex-column justify-content-center p-5 text-center text-lg-start">
                         <p className="fs-2">Hey,</p>
                         <h1 className="display-1">Roshan — This Side</h1>
                         <h2 className="fs-1 text">MERN Stack Developer</h2>
@@ -25,13 +26,8 @@ const Home = () => {
                     </div>
 
                     {/* Right Column */}
-                    <div className="col-12 col-lg-6 p-0">
-                        <img
-                            src="https://i.pinimg.com/originals/50/ea/6f/50ea6f333adf5baf1b1984d3d90420a5.gif"
-                            alt="3d object"
-                            className="w-100 h-100"
-                            style={{ objectFit: "contain", minHeight: "50vh" }}
-                        />
+                    <div className="col-12 col-lg-7 p-0">
+                        <Three />
                     </div>
 
                 </div>
