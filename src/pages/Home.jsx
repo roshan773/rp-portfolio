@@ -19,20 +19,38 @@ const Home = () => {
                             Crafting responsive, user-focused web apps with a blend of logic and creativity.
                         </p>
                         <div className="col-12">
-                            <a href="#contact" className="button me-2" style={{ fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif", fontSize: "20px" }}>
+                            <a
+                                href="#contact"
+                                className="button me-2"
+                                style={{
+                                    fontFamily:
+                                        "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+                                    fontSize: "20px",
+                                }}
+                            >
                                 Let's Work Together
                             </a>
                         </div>
                     </div>
 
                     {/* Right Column */}
-                    <div className="col-12 col-lg-7 p-0" style={{zIndex: "9999"}}>
-                        <Three />
+                    <div className="col-12 col-lg-7 p-0 position-relative">
+                        {/* Background 3D element */}
+                        <div
+                            style={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                width: "100%",
+                                height: "100%",
+                                zIndex: 0, // behind content
+                            }}
+                        >
+                            <Three />
+                        </div>
                     </div>
-
                 </div>
             </div>
-
         </>
     );
 };
