@@ -7,11 +7,14 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <div className="container-fluid">
-                <div className="row min-vh-100">
-
-                    {/* Left Column */}
-                    <div className="col-12 col-lg-5 d-flex flex-column justify-content-center p-5 text-center text-lg-start position-relative z-index-1">
+            <div className="container-fluid position-relative min-vh-100">
+                <div className="row min-vh-100 position-relative">
+                    
+                    {/* Left Column (Foreground Content) */}
+                    <div
+                        className="col-12 col-lg-5 d-flex flex-column justify-content-center p-5 text-center text-lg-start"
+                        style={{ zIndex: 2 }} // keep text always on top
+                    >
                         <p className="fs-2">Hey,</p>
                         <h1 className="display-1">Roshan — This Side</h1>
                         <h2 className="fs-1 text">MERN Stack Developer</h2>
@@ -33,22 +36,12 @@ const Home = () => {
                         </div>
                     </div>
 
-                    {/* Right Column */}
-                    <div className="col-12 col-lg-7 p-0 position-relative">
-                        {/* Background 3D element */}
-                        <div
-                            style={{
-                                position: "absolute",
-                                top: 50,
-                                left: 50,
-                                transform: "translate(-50%, -50%)",
-                                width: "100%",
-                                height: "100%",
-                                zIndex: 0, // behind content
-                            }}
-                        >
-                            <Three />
-                        </div>
+                    {/* Right Column with 3D Donut (Background) */}
+                    <div
+                        className="col-12 col-lg-7 position-absolute top-0 end-0 h-100"
+                        style={{ zIndex: 1 }}
+                    >
+                        <Three />
                     </div>
                 </div>
             </div>
